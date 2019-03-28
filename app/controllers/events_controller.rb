@@ -8,9 +8,10 @@ class EventsController < ApplicationController
     @events = Event.where(:career => current_user.career)
   end
 
-  # GET /events/1
-  # GET /events/1.json
+ 
   def show
+     # GET /events/1
+    # GET /events/1.json
   end
 
   # GET /events/new
@@ -18,8 +19,9 @@ class EventsController < ApplicationController
     @event = Event.new
   end
 
-  # GET /events/1/edit
+ 
   def edit
+     # GET /events/1/edit
   end
 
   # POST /events
