@@ -10,8 +10,9 @@ class EventsController < ApplicationController
 
   # GET /events/1
   # GET /events/1.json
-  def show
-  end
+  # Method Show without implementation.
+  # Implement Show Method
+
 
   # GET /events/new
   def new
@@ -19,8 +20,8 @@ class EventsController < ApplicationController
   end
 
   # GET /events/1/edit
-  def edit
-  end
+  # Method Edit without implementation
+  # Implement Edit method
 
   # POST /events
   # POST /events.json
