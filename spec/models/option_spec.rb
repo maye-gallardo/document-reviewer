@@ -7,10 +7,10 @@ describe Option do
         @option = options(:one)
     end
 
-    # it 'always has a value' do
-    #     @option.point = nil
-    #     expect(@option.valid?).to be_falsy
-    # end
+    it 'always has a value' do
+        @option.point = nil
+        expect(@option.valid?).to be_falsy
+    end
 
     it 'always has a description' do
         @option.description = nil
